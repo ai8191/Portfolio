@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
 
           {/* 3D Animation */}
-          <div className="w-full h-80 sm:h-[400px] md:h-[500px] rounded-xl overflow-hidden">
+          <div className="w-full h-80 sm:h-[400px] md:h-[500px] rounded-xl overflow-hidden hidden md:block">
             <Spline 
               scene="https://prod.spline.design/61dBhbWCc-mjnHOf/scene.splinecode" 
               className="w-full h-full"
